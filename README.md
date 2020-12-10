@@ -1,6 +1,6 @@
 ﻿# DuckScript
 
-A small tool allowing Windows users to easily make payloads to use for educational purposes. [Click here to download.](https://github.com/Zebratic/DuckScript/Releases/)
+A small tool allowing Windows users to easily make payloads to use for educational purposes. [Click here to download.](https://github.com/Zebratic/DuckScript/releases)
 
 ## Disclaimer
 **Use at your own risk!** This tool is simple but powerful, and it can be used to make harm on other computers.
@@ -17,4 +17,4 @@ This is also recommended if any functions or payloads needs elevated permissions
 ## Help with this project
 I would gladly like contributers to help me add features to DuckScript.
 
-Contact me by my socials [here.](https://zebraticsalley.herokuapp.com/)
+Contact me by my socials [here.](https://zebraticsalley.herokuapp.com)
