@@ -1,6 +1,6 @@
 ﻿# DuckScript
 
-A small tool allowing Windows users to easily make payloads to use for educational purposes. [Click here to download.](https://github.com/zebratic/duckscript/releases/)
+A small tool allowing Windows users to easily make payloads to use for educational purposes. [Click here to download.](https://github.com/Zebratic/DuckScript/Releases/)
 
 ## Disclaimer
 **Use at your own risk!** This tool is simple but powerful, and it can be used to make harm on other computers.
