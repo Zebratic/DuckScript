@@ -1,0 +1,23 @@
+# DuckScript Notepad Script Example
+# Author: Zebratic
+# Date: 10/12/2020
+
+"/updatesettings" "errors" "true"
+"/updatesettings" "debug" "true"
+
+"/start" "notepad"
+
+"/wait" "100"
+
+"/focuswindow" "notepad"
+
+"/sendkeys" "hello this is working very well!%enter%"
+"/sendkeys" "hello this is working very well!%enter%"
+"/sendkeys" "hello this is working very well!%enter%"
+"/sendkeys" "hello this is working very well!%enter%"
+
+"/focuswindow" "notepad"
+
+"/sendkeys" "%alt%%f4%"
+
+"/sendkeys" "%right%%enter%"

