@@ -1,0 +1,5 @@
+﻿Commands:
+	"/until"		- wait until chrome closed or opened etc. ("/until" "chrome" or "closed")
+	"/spoofmac"		- spoof current mac address ("/spoofmac" ("2A-DF-FB-4E-99-D5"))
+	"/playsound"	- play a soundfile ("/playsound" "{path}")
+	"/"

