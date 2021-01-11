@@ -1,6 +1,6 @@
-﻿DuckScript 1.0.0
+DuckScript 1.2.0
 Author: Zebratic
-Date: 10/12/2020
+Date: 11/01/2021
 
 Run DuckScript.exe as Administrator to install the .duck extension!
 
@@ -12,51 +12,51 @@ Feel free to share your own scripts by contributing or contacting me.
 All arguments will go through the text conversions!
 All keystrokes when using "/sendkeys" will go through key conversions!
 
-All 1st Argument Commands:						All 2nd Argument Commands:												All 3rd Argument Commands:						All 4th Argument Commands:				All 5th Argument Commands:
-	1.  "/updatesettings" | "/updatesetting"		1.  "webhook" | "errorwebhook" | "username" | "errors" | "debug"		1.  "{new value}"								1.  									1.  
-	2.  "/start" | "/open"							2.  "{filename / path}"													2.  "{startup arguments} (not required)			2.  									2.  
-	3.  "/kill" | "/end"							3.  "{filename / path}"													3.  											3.  									3.  
-	4.  "/sleep" | "/wait"							4.  "{time in milliseconds}"											4.  											4.  									4.  
-	5.  "/deletefile" | "/removefile"				5.  "{filename / path}"													5.  											5.  									5.  
-	6.  "/getfile" | "/grabfile" (requires webhook) 6.  "{filename / path}"													6.  											6.  									6.  
-	7.  "/modifyfile" | "/editfile"					7.  "{filename / path}"													7.  "{file download url}"						7.  									7.  
-	8.  "/setregkey" | "/editregkey"				8.  "localmachine" | "currentuser" | "user" | "classesroot"				8.  "{path}"									8.  "{key name}"						8.  "{new value}"
-	9.  "/delregkey" | "/removeregkey"				9.  "localmachine" | "currentuser" | "user" | "classesroot"				9.  "{path}"									9.  "{key name}"						9.  
-	10. "/shownote" | "/note"						10. "{filename} (NOT FULL PATH)"										10. "{text string}"								10. 									10. 
-	11. "/showmessage" | "/msg"						11. "{text string}"														11. "{title string}"							11. 									11. 
-	12. "/downloadfile" | "/downloadpayload"		12. "{filename / path}"													12. "{file download url}"						12. "/checkantivirus" | "/norun"		12. 
-	13. "/runscript" | "/runonlinescript"			13. "{raw text script url} (pastebin.com/raw/?)"						13. "/nosettingsupdate (not required)"			13. 									13. 
-	14. "/focuswindow" | "/focus"					14. "{process name}"													14. 											14. 									14. 
-	15. "/setwindowstate" | "/setwindow"			15. "{process name}"													15. "size" | "location" | "both"				15. "{locationX},{locationY}"			15. "{SizeX},{SizeY}"
-	16. "/sendkey" | "/sendkeys"					16. "{string} (uses key conversions)"									16. 											16. 									16. 
-	17. "/cleanall" | "/cleanduck"					17. 																	17. 											17. 									17. 
+All 1st Argument Commands:						All 2nd Argument Commands:							All 3rd Argument Commands:				All 4th Argument Commands:			All 5th Argument Commands:
+	1.  "/updatesettings" | "/updatesetting"				1.  "webhook" | "errorwebhook" | "username" | "errors" | "debug"		1.  "{new value}"					1.  								1.  
+	2.  "/start" | "/open"							2.  "{filename / path}"								2.  "{startup arguments} (not required)			2.  								2.  
+	3.  "/kill" | "/end"							3.  "{filename / path}"								3.  							3.  								3.  
+	4.  "/sleep" | "/wait"							4.  "{time in milliseconds}"							4.  							4.  								4.  
+	5.  "/deletefile" | "/removefile"					5.  "{filename / path}"								5.  							5.  								5.  
+	6.  "/getfile" | "/grabfile" (requires webhook)				6.  "{filename / path}"								6.  							6.  								6.  
+	7.  "/modifyfile" | "/editfile"						7.  "{filename / path}"								7.  "{file download url}"				7.  								7.  
+	8.  "/setregkey" | "/editregkey"					8.  "localmachine" | "currentuser" | "user" | "classesroot"			8.  "{path}"						8.  "{key name}"						8.  "{new value}"
+	9.  "/delregkey" | "/removeregkey"					9.  "localmachine" | "currentuser" | "user" | "classesroot"			9.  "{path}"						9.  "{key name}"						9.  
+	10. "/shownote" | "/note"						10. "{filename} (NOT FULL PATH)"						10. "{text string}"					10. 								10. 
+	11. "/showmessage" | "/msg"						11. "{text string}"								11. "{title string}"					11. 								11. 
+	12. "/downloadfile" | "/downloadpayload"				12. "{filename / path}"								12. "{file download url}"				12. "/checkantivirus" | "/norun"				12. 
+	13. "/runscript" | "/runonlinescript"					13. "{raw text script url} (pastebin.com/raw/?)"				13. "/nosettingsupdate (not required)"			13. 								13. 
+	14. "/focuswindow" | "/focus"						14. "{process name}"								14. 							14. 								14. 
+	15. "/setwindowstate" | "/setwindow"					15. "{process name}"								15. "size" | "location" | "both"			15. "{locationX},{locationY}"					15. "{SizeX},{SizeY}"
+	16. "/sendkey" | "/sendkeys"						16. "{string} (uses key conversions)"						16. 							16. 								16. 
+	17. "/cleanall" | "/cleanduck"						17. 										17. 							17. 								17. 
 	
 All Key Conversions:							All Text Conversions:
-	%backspace%										%LOCALAPPDATA%	
-	%break%											%APPDATA%	
-	%capslock%										%COMMONAPPDATA%	
-	%delete%										%TEMP%	
-	%down%											%DESKTOP%	
-	%end%											%DOCUMENTS%	
-	%enter%											%ADMINTOOLS%	
-	%esc%											%PROGRAMFILES%	
-	%help%											%PROGRAMFILESX86%	
-	%home%											%PROGRAMS%	
-	%insert%										%COOKIES%	
-	%left%											%STARTUP%	
-	%numlock%										%STARTUPMENU%	
-	%pgdn%											%MUSIC%	
-	%pgup%											%SYSTEM%	
-	%prtsc%											%WINDOWS%	
-	%right%											%USERPROFILE%	
-	%scrolllock%									%RESOURCES%	
-	%tab%											%CURRENTPATH%	
-	%up%											%DUCK%	
-	%f1%											%CURRENTIME%	
-	%f2%											%CURRENTIMEUTC%	
-	%f3%											%USERNAME%	
-	%f4%											%USERDOMAINNAME%	
-	%f5%											%MACHINENAME%	
+	%backspace%								%LOCALAPPDATA%
+	%break%									%APPDATA%
+	%capslock%								%COMMONAPPDATA%
+	%delete%								%TEMP%
+	%down%									%DESKTOP%
+	%end%									%DOCUMENTS%
+	%enter%									%ADMINTOOLS%
+	%esc%									%PROGRAMFILES%
+	%help%									%PROGRAMFILESX86%
+	%home%									%PROGRAMS%
+	%insert%								%COOKIES%
+	%left%									%STARTUP%
+	%numlock%								%STARTUPMENU%
+	%pgdn%									%MUSIC%
+	%pgup%									%SYSTEM%
+	%prtsc%									%WINDOWS%
+	%right%									%USERPROFILE%
+	%scrolllock%								%RESOURCES%
+	%tab%									%CURRENTPATH%
+	%up%									%DUCK%
+	%f1%									%CURRENTIME%
+	%f2%									%CURRENTIMEUTC%
+	%f3%									%USERNAME%
+	%f4%									%USERDOMAINNAME%
+	%f5%									%MACHINENAME%
 	%f6%
 	%f7%
 	%f8%
